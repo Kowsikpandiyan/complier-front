@@ -176,7 +176,7 @@ export default function App() {
             <span style={styles.badge(isDark)}>PRO</span>
           </div>
           <div style={styles.subtext(isDark)}>
-            Multi Concept// • OOP • DS • Scanner input • Instant output
+            Try to Learn..
           </div>
         </div>
 
