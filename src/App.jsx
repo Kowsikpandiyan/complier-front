@@ -269,10 +269,10 @@ export default function App() {
           {/* Input */}
           <div style={styles.cardSmall(isDark)}>
             <div style={styles.cardHeaderSmall(isDark)}>
-              <div style={styles.cardTitle}>Input : For User</div>
+              <div style={styles.cardTitle}>Input Box</div>
 
               <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
-                <div style={styles.hint(isDark)}>For Scanner / stdin</div>
+                <div style={styles.hint(isDark)}>For Using Scanner</div>
 
                 <label style={styles.echoToggle(isDark)} title="Show input value next to prompts">
                   <input
@@ -298,7 +298,7 @@ export default function App() {
           {/* Output */}
           <div style={{ ...styles.cardSmall(isDark), flex: 1 }}>
             <div style={styles.cardHeaderSmall(isDark)}>
-              <div style={styles.cardTitle}>Output</div>
+              <div style={styles.cardTitle}>Output Box</div>
               <div style={styles.hint(isDark)}>{lastOk ? "Success" : "Error"}</div>
             </div>
 
